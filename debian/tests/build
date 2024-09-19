@@ -1,0 +1,8 @@
+#!/bin/sh
+
+set -e
+echo "test start"
+checksec --output=csv --file=/bin/ls || echo "test fail" || exit
+checksec --output=xml --file=/bin/ls || echo "test fail" || exit
+checksec --output=json --file=/bin/ls || echo "test fail" || exit
+echo "test OK"
