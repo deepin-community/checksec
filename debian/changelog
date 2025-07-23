@@ -1,3 +1,9 @@
+checksec (2.6.0-2deepin1) unstable; urgency=medium
+
+  * feat: add sw64 support.
+
+ -- qaqland <anguoli@uniontech.com>  Wed, 23 Jul 2025 10:40:42 +0800
+
 checksec (2.6.0-2) unstable; urgency=medium
 
   * Fix d/watch issue
